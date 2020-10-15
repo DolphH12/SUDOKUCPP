@@ -2,7 +2,7 @@
 
 using namespace std;
 
-struct sudoku{
+struct sudoku{ //Estructura que me hace la matrizg
     int **matriz;
     int restantes;
 
@@ -13,7 +13,7 @@ struct sudoku{
     void imprimir();
 };
 
-int main()
+int main() //Aqui esta el programa principalg
 {
     sudoku *sdk = new sudoku();
     int fila, columna, numero;
